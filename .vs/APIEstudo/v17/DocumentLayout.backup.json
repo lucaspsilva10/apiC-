@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
@@ -67,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
@@ -79,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
@@ -91,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "APIEstudo.Domain\\Entities\\Usuario.cs",
@@ -103,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
@@ -115,20 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeToolTip": "APIEstudo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T14:57:01.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\appsettings.json",
               "RelativeDocumentMoniker": "APIEstudo\\appsettings.json",
@@ -140,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "APIEstudo.Application.csproj",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\APIEstudo.Application.csproj",
               "RelativeDocumentMoniker": "APIEstudo.Application\\APIEstudo.Application.csproj",
@@ -152,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "APIEstudo.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\APIEstudo.Domain.csproj",
               "RelativeDocumentMoniker": "APIEstudo.Domain\\APIEstudo.Domain.csproj",
@@ -164,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "APIEstudo.http",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\APIEstudo.http",
               "RelativeDocumentMoniker": "APIEstudo\\APIEstudo.http",
