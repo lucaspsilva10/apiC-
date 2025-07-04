@@ -1,0 +1,12 @@
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Infrastructure.deps.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Infrastructure.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Infrastructure.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.AssemblyInfo.cs
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\refint\APIEstudo.Infrastructure.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\ref\APIEstudo.Infrastructure.dll
