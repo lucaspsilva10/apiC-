@@ -10,3 +10,11 @@ C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\refint\APIEstudo.Infrastructure.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.pdb
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\ref\APIEstudo.Infrastructure.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Application.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Application.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Domain.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.sourcelink.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstud.25C2A0A9.Up2Date
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\bin\Debug\net8.0\APIEstudo.Infrastructure.runtimeconfig.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Infrastructure\obj\Debug\net8.0\APIEstudo.Infrastructure.genruntimeconfig.cache

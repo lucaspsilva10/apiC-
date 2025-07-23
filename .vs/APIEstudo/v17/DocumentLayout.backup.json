@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\logins\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\logins\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\responses\\logins\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\responses\\logins\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\usuarios\\handlers\\createusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\usuarios\\handlers\\createusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\apiestudo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\apiestudo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuarios\\usuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuarios\\usuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\apiestudo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\apiestudo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\validations\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\validations\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\apiestudo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\apiestudo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\autenticationtoken\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\autenticationtoken\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\logins\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\logins\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\logins\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\logins\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\usuarios\\iusuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\usuarios\\iusuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,116 +70,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:23:15.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:22:30.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
-              "RelativeToolTip": "APIEstudo.Application\\DTOs\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:19:09.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "APIEstudo.Domain\\Entities\\Usuario.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Entities\\Usuario.cs",
               "RelativeToolTip": "APIEstudo.Domain\\Entities\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvw0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:55:31.094Z"
+              "WhenOpened": "2025-07-18T18:32:57.793Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Responses\\Logins\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Responses\\Logins\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Responses\\Logins\\LoginResponse.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Responses\\Logins\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:28:38.821Z"
+              "WhenOpened": "2025-07-22T17:35:37.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\appsettings.json",
-              "RelativeDocumentMoniker": "APIEstudo\\appsettings.json",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\appsettings.json",
-              "RelativeToolTip": "APIEstudo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-04T12:11:00.643Z"
+              "DocumentIndex": 2,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Logins\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Logins\\Handlers\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Logins\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Logins\\Handlers\\LoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:42:47.06Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "APIEstudo.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\APIEstudo.Application.csproj",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\APIEstudo.Application.csproj",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\APIEstudo.Application.csproj",
-              "RelativeToolTip": "APIEstudo.Application\\APIEstudo.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-03T01:10:33.072Z"
+              "Title": "CreateUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\CreateUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\CreateUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\CreateUsuarioHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\CreateUsuarioHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:06:47.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "APIEstudo.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\APIEstudo.Domain.csproj",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\APIEstudo.Domain.csproj",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\APIEstudo.Domain.csproj",
-              "RelativeToolTip": "APIEstudo.Domain\\APIEstudo.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-03T01:10:04.294Z"
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:40:08.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Interfaces\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Interfaces\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Interfaces\\ICommandHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Interfaces\\ICommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:31:57.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeToolTip": "APIEstudo\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:44:59.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "APIEstudo.http",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\APIEstudo.http",
-              "RelativeDocumentMoniker": "APIEstudo\\APIEstudo.http",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\APIEstudo.http",
-              "RelativeToolTip": "APIEstudo\\APIEstudo.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-03T00:53:59.902Z"
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:10:38.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioValidation.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
+              "RelativeToolTip": "APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T18:24:45.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
+              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:48:53.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsuarioWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
+              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:12:35.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsuarioReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioReadRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioReadRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioReadRepository.cs",
+              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:58:51.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Logins\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Logins\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Logins\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Logins\\IJwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:27:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\AutenticationToken\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\AutenticationToken\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\AutenticationToken\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "APIEstudo.Infrastructure\\AutenticationToken\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T21:35:43.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Logins\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Logins\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Logins\\LoginCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Logins\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T20:42:13.482Z"
             }
           ]
         }
