@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "93Kr1yj/YKw=",
+  "dgSpecHash": "O2itu+JNO8c=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\APIEstudo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

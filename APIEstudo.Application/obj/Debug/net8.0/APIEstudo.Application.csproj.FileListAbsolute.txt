@@ -1,0 +1,16 @@
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\bin\Debug\net8.0\APIEstudo.Application.deps.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\bin\Debug\net8.0\APIEstudo.Application.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\bin\Debug\net8.0\APIEstudo.Application.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\bin\Debug\net8.0\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\bin\Debug\net8.0\APIEstudo.Domain.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.AssemblyInfo.cs
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.sourcelink.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstud.93210331.Up2Date
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\refint\APIEstudo.Application.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\APIEstudo.Application.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Application\obj\Debug\net8.0\ref\APIEstudo.Application.dll

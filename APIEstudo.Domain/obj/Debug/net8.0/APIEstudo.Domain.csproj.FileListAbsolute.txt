@@ -1,0 +1,13 @@
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\bin\Debug\net8.0\APIEstudo.Domain.deps.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\bin\Debug\net8.0\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\bin\Debug\net8.0\APIEstudo.Domain.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.AssemblyInfo.cs
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.sourcelink.json
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\refint\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.pdb
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\ref\APIEstudo.Domain.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo.Domain\obj\Debug\net8.0\APIEstudo.Domain.csproj.AssemblyReference.cache
