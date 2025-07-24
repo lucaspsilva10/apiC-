@@ -1,7 +1,6 @@
 ﻿using APIEstudo.Application.Commands.Logins;
 using APIEstudo.Application.Interfaces;
 using APIEstudo.Application.Responses.Logins;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIEstudo.Controllers
@@ -20,15 +19,19 @@ namespace APIEstudo.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginCommand command)
         {
-            var token = await _loginHandler.HandleAsync(command);
-            return Ok(new { Token = token });
-        }
-
-        [Authorize]
-        [HttpGet("protegido")]
-        public IActionResult Get()
-        {
-            return Ok("Você está autenticado!");
+            try
+            {
+                var response = await _loginHandler.HandleAsync(command);
+                return Ok(response);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { mensagem = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensagem = ex.Message });
+            }
         }
     }
 }

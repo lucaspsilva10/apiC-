@@ -18,10 +18,12 @@ namespace APIEstudo.Application.Commands.Logins.Handlers
         public async Task<LoginResponse> HandleAsync(LoginCommand command)
         {
             var usuario = await _readRepo.GetUsuarioByEmailAsync(command.Email);
+            if (usuario == null)
+                throw new UnauthorizedAccessException("Email não cadastrado no sistema");
+            
             var verificacao = BCrypt.Net.BCrypt.Verify(command.Senha, usuario.Senha);
-
             if (usuario == null || !BCrypt.Net.BCrypt.Verify(command.Senha.Trim(), usuario.Senha))
-                throw new UnauthorizedAccessException("Email ou senha inválidos");
+                throw new UnauthorizedAccessException("Senha inválida");
 
             var token = _tokenGenerator.GenerateToken(usuario);
 
