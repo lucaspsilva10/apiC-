@@ -2,7 +2,6 @@
 using APIEstudo.Application.Responses;
 using APIEstudo.Domain.Entities;
 using APIEstudo.Domain.Interfaces.Usuarios;
-using AutoMapper;
 using System.Text.RegularExpressions;
 
 namespace APIEstudo.Application.Commands.Usuarios.Handlers
@@ -11,13 +10,11 @@ namespace APIEstudo.Application.Commands.Usuarios.Handlers
     {
         private readonly IUsuarioReadRepository _read;
         private readonly IUsuarioWriteRepository _write;
-        private readonly IMapper _mapper;
 
-        public CreateUsuarioHandler(IUsuarioReadRepository read, IUsuarioWriteRepository write, IMapper mapper)
+        public CreateUsuarioHandler(IUsuarioReadRepository read, IUsuarioWriteRepository write)
         {
             _read = read;
             _write = write;
-            _mapper = mapper;
         }
 
         public async Task<MensagemResponse> HandleAsync(CreateUsuarioCommand command)

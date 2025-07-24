@@ -4,9 +4,11 @@ using APIEstudo.Application.Commands.Usuarios;
 using APIEstudo.Application.Commands.Usuarios.Handlers;
 using APIEstudo.Application.Interfaces;
 using APIEstudo.Application.Mappings;
+using APIEstudo.Application.Queries.Usuarios;
+using APIEstudo.Application.Queries.Usuarios.Handlers;
 using APIEstudo.Application.Responses;
 using APIEstudo.Application.Responses.Logins;
-using APIEstudo.Domain.Entities;
+using APIEstudo.Application.Responses.Usuarios;
 using APIEstudo.Domain.Interfaces.Logins;
 using APIEstudo.Domain.Interfaces.Usuarios;
 using APIEstudo.Infrastructure.AutenticationToken;
@@ -61,6 +63,10 @@ builder.Services.AddSwaggerGen(c =>
 
 //Command Usuario
 builder.Services.AddScoped<ICommandHandler<CreateUsuarioCommand, MensagemResponse>, CreateUsuarioHandler>();
+builder.Services.AddScoped<ICommandHandler<UpdateUsuarioCommand, MensagemResponse>, UpdateUsuarioHandler>();
+builder.Services.AddScoped<ICommandHandler<DeleteUsuarioCommand, MensagemResponse>, DeleteUsuarioHandler>();
+//Query Usuario
+builder.Services.AddScoped<IQueryHandler<GetUsuarioByIdQuery, GetUsuarioByIdResponse>, GetUsuarioByIdHandler>();
 //Command Login
 builder.Services.AddScoped<ICommandHandler<LoginCommand, LoginResponse>, LoginHandler>();
 
@@ -88,8 +94,6 @@ builder.Services.AddAuthentication("Bearer")
 
 builder.Services.AddAuthorization();
 
-
-
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -98,7 +102,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

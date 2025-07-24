@@ -11,5 +11,6 @@ namespace APIEstudo.Domain.Interfaces.Usuarios
     {
         Task<Usuario> CreateUsuarioAsync(Usuario usuario);
         Task<Usuario> UpdateUsuarioAsync(Usuario usuario);
+        Task<bool> DeleteUsuarioAsync(Guid id);
     }
 }
