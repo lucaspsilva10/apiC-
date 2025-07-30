@@ -5,6 +5,103 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Banco": {
+      "post": {
+        "tags": [
+          "Banco"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBancoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBancoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBancoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banco/ObterBancos": {
+      "get": {
+        "tags": [
+          "Banco"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banco/UpdateBanco": {
+      "put": {
+        "tags": [
+          "Banco"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBancoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBancoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateBancoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banco/deleteBanco/{id}": {
+      "delete": {
+        "tags": [
+          "Banco"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Login": {
       "post": {
         "tags": [
@@ -98,7 +195,7 @@
         }
       }
     },
-    "/api/Usuario/{id}": {
+    "/api/Usuario/obter/{id}": {
       "get": {
         "tags": [
           "Usuario"
@@ -119,7 +216,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Usuario/deletar/{id}": {
       "delete": {
         "tags": [
           "Usuario"
@@ -145,6 +244,16 @@
   },
   "components": {
     "schemas": {
+      "CreateBancoCommand": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateUsuarioCommand": {
         "type": "object",
         "properties": {
@@ -175,6 +284,20 @@
             "nullable": true
           },
           "senha": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateBancoCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nome": {
             "type": "string",
             "nullable": true
           }

@@ -22,6 +22,25 @@ namespace APIEstudo.Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Banco", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("bancos", (string)null);
+                });
+
             modelBuilder.Entity("APIEstudo.Domain.Entities.Usuario", b =>
                 {
                     b.Property<Guid>("Id")

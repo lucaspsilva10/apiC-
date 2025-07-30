@@ -18,7 +18,7 @@ namespace APIEstudo.Application.Commands.Usuarios.Handlers
             var deleteUsuario = await _writeRepository.DeleteUsuarioAsync(command.Id);
 
             if (!deleteUsuario)
-                return new MensagemResponse { Mensagem = "Usuário não cadastrado." };
+                throw new Exception("Usuário não encontrado.");
 
             return new MensagemResponse { Mensagem = "Usuário deletado com sucesso." };
         }

@@ -15,6 +15,7 @@ namespace APIEstudo.Infrastructure.Repositories.Usuarios
         {
             _context = context;
         }
+
         public async Task<bool> ValidateCPFExistAsync(string cpf)
         {
             return await _context.Usuarios.AnyAsync(u => u.Cpf == cpf);
