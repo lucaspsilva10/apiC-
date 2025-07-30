@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\handlers\\deletebancohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\handlers\\deletebancohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\createbancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\createbancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\usuarios\\deleteusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\usuarios\\deleteusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\usuarios\\handlers\\deleteusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\usuarios\\handlers\\deleteusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\usuarios\\handlers\\updateusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\usuarios\\handlers\\updateusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\queries\\usuarios\\handlers\\getusuariobyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\queries\\usuarios\\handlers\\getusuariobyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\bancos\\ibancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\bancos\\ibancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\interfaces\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\interfaces\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\responses\\usuarios\\getusuariobyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\responses\\usuarios\\getusuariobyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\queries\\usuarios\\getusuariobyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\queries\\usuarios\\getusuariobyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuarios\\usuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuarios\\usuarioreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\bancos\\bancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\bancos\\bancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,73 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeToolTip": "APIEstudo\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:46:22.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateUsuarioHandler.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\UpdateUsuarioHandler.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\UpdateUsuarioHandler.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\UpdateUsuarioHandler.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\UpdateUsuarioHandler.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:26:10.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteUsuarioHandler.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\DeleteUsuarioHandler.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\DeleteUsuarioHandler.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\Handlers\\DeleteUsuarioHandler.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\Handlers\\DeleteUsuarioHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:25:29.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeleteUsuarioCommand.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:24:44.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsuarioWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:20:43.663Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -133,87 +60,126 @@
               "RelativeDocumentMoniker": "APIEstudo\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "APIEstudo\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:49:06.753Z",
+              "WhenOpened": "2025-07-30T13:41:02.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BancoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\BancoController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\BancoController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:33:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateBancoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:27:39.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeToolTip": "APIEstudo\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:27:02.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteBancoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:11:46.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteBancoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:09:13.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UsuarioWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowB8AAAAyAAAAAAAAAA==",
+              "Title": "DeleteUsuarioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:17:07.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetUsuarioByIdResponse.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Responses\\Usuarios\\GetUsuarioByIdResponse.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Responses\\Usuarios\\GetUsuarioByIdResponse.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Responses\\Usuarios\\GetUsuarioByIdResponse.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Responses\\Usuarios\\GetUsuarioByIdResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:47:16.441Z",
+              "WhenOpened": "2025-07-30T12:54:10.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Interfaces\\IQueryHandler.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Interfaces\\IQueryHandler.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Interfaces\\IQueryHandler.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Interfaces\\IQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "IBancoWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
+              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:34:30.127Z",
+              "WhenOpened": "2025-07-30T12:52:33.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetUsuarioByIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Usuarios\\Handlers\\GetUsuarioByIdHandler.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Queries\\Usuarios\\Handlers\\GetUsuarioByIdHandler.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Usuarios\\Handlers\\GetUsuarioByIdHandler.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Queries\\Usuarios\\Handlers\\GetUsuarioByIdHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAA8AAAAAAAAAA==",
+              "Title": "UsuarioWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
+              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:33:56.519Z",
+              "WhenOpened": "2025-07-30T12:35:42.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetUsuarioByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Usuarios\\GetUsuarioByIdQuery.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Queries\\Usuarios\\GetUsuarioByIdQuery.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Usuarios\\GetUsuarioByIdQuery.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Queries\\Usuarios\\GetUsuarioByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "BancoWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
+              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:31:28.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:07:20.618Z",
+              "WhenOpened": "2025-07-30T12:36:08.132Z",
               "EditorCaption": ""
             }
           ]

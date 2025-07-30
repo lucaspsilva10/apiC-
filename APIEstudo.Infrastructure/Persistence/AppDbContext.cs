@@ -15,6 +15,7 @@ namespace APIEstudo.Infrastructure.Persistence
 
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Banco> Bancos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +31,18 @@ namespace APIEstudo.Infrastructure.Persistence
                     .HasColumnType("datetime")
                     .IsRequired();
             });
+
+            modelBuilder.Entity<Banco>(entity => 
+            {
+                entity.ToTable("bancos");
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Nome).HasMaxLength(100);
+                entity.Property(e => e.CriadoEm)
+                    .HasColumnType("datetime")
+                    .IsRequired();
+            });
         }
+
+        
     }
 }

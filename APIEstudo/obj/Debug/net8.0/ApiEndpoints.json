@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "APIEstudo.Controllers.BancoController",
+    "Method": "CreateUsuario",
+    "RelativePath": "api/Banco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "APIEstudo.Application.Commands.Bancos.CreateBancoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.BancoController",
+    "Method": "DeleteBanco",
+    "RelativePath": "api/Banco/deleteBanco/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.BancoController",
+    "Method": "GetAllBancos",
+    "RelativePath": "api/Banco/ObterBancos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.BancoController",
+    "Method": "UpdateBanco",
+    "RelativePath": "api/Banco/UpdateBanco",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "APIEstudo.Application.Commands.Bancos.UpdateBancoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIEstudo.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login",
@@ -33,15 +91,15 @@
   },
   {
     "ContainingType": "APIEstudo.Controllers.UsuarioController",
-    "Method": "GetUsuario",
-    "RelativePath": "api/Usuario/{id}",
-    "HttpMethod": "GET",
+    "Method": "UpdateUsuario",
+    "RelativePath": "api/Usuario/alterar",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Guid",
+        "Name": "command",
+        "Type": "APIEstudo.Application.Commands.Usuarios.UpdateUsuarioCommand",
         "IsRequired": true
       }
     ],
@@ -50,7 +108,7 @@
   {
     "ContainingType": "APIEstudo.Controllers.UsuarioController",
     "Method": "DeleteUsuario",
-    "RelativePath": "api/Usuario/{id}",
+    "RelativePath": "api/Usuario/deletar/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -65,15 +123,15 @@
   },
   {
     "ContainingType": "APIEstudo.Controllers.UsuarioController",
-    "Method": "UpdateUsuario",
-    "RelativePath": "api/Usuario/alterar",
-    "HttpMethod": "PUT",
+    "Method": "GetUsuario",
+    "RelativePath": "api/Usuario/obter/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "APIEstudo.Application.Commands.Usuarios.UpdateUsuarioCommand",
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

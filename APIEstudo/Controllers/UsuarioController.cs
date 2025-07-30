@@ -57,7 +57,7 @@ namespace APIEstudo.Controllers
         }
 
         [Authorize]
-        [HttpGet("{id}")]
+        [HttpGet("obter/{id}")]
         public async Task<IActionResult> GetUsuario(Guid id)
         {
             try
@@ -73,7 +73,7 @@ namespace APIEstudo.Controllers
         }
 
         [Authorize]
-        [HttpDelete("{id}")]
+        [HttpDelete("deletar/{id}")]
         public async Task<IActionResult> DeleteUsuario(Guid id)
         {
             try

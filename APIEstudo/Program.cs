@@ -1,18 +1,25 @@
+using APIEstudo.Application.Commands.Bancos;
+using APIEstudo.Application.Commands.Bancos.Handlers;
 using APIEstudo.Application.Commands.Logins;
 using APIEstudo.Application.Commands.Logins.Handlers;
 using APIEstudo.Application.Commands.Usuarios;
 using APIEstudo.Application.Commands.Usuarios.Handlers;
 using APIEstudo.Application.Interfaces;
 using APIEstudo.Application.Mappings;
+using APIEstudo.Application.Queries.Bancos;
+using APIEstudo.Application.Queries.Bancos.Handlers;
 using APIEstudo.Application.Queries.Usuarios;
 using APIEstudo.Application.Queries.Usuarios.Handlers;
 using APIEstudo.Application.Responses;
+using APIEstudo.Application.Responses.Bancos;
 using APIEstudo.Application.Responses.Logins;
 using APIEstudo.Application.Responses.Usuarios;
+using APIEstudo.Domain.Interfaces.Bancos;
 using APIEstudo.Domain.Interfaces.Logins;
 using APIEstudo.Domain.Interfaces.Usuarios;
 using APIEstudo.Infrastructure.AutenticationToken;
 using APIEstudo.Infrastructure.Persistence;
+using APIEstudo.Infrastructure.Repositories.Bancos;
 using APIEstudo.Infrastructure.Repositories.Usuarios;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -67,12 +74,21 @@ builder.Services.AddScoped<ICommandHandler<UpdateUsuarioCommand, MensagemRespons
 builder.Services.AddScoped<ICommandHandler<DeleteUsuarioCommand, MensagemResponse>, DeleteUsuarioHandler>();
 //Query Usuario
 builder.Services.AddScoped<IQueryHandler<GetUsuarioByIdQuery, GetUsuarioByIdResponse>, GetUsuarioByIdHandler>();
+//Command Banco
+builder.Services.AddScoped<ICommandHandler<CreateBancoCommand, MensagemResponse>, CreateBancoHandler>();
+builder.Services.AddScoped<ICommandHandler<UpdateBancoCommand, MensagemResponse>, UpdateBancoHandler>();
+builder.Services.AddScoped<ICommandHandler<DeleteBancoCommand, MensagemResponse>, DeleteBancoHandler>();
+
+//Query Banco
+builder.Services.AddScoped<IQueryHandler<GetAllBancoQuery, List<GetAllBancoResponse>>, GetAllBancoHandler>();
 //Command Login
 builder.Services.AddScoped<ICommandHandler<LoginCommand, LoginResponse>, LoginHandler>();
 
 //Repositories
 builder.Services.AddScoped<IUsuarioReadRepository, UsuarioReadRepository>();
 builder.Services.AddScoped<IUsuarioWriteRepository, UsuarioWriteRepository>();
+builder.Services.AddScoped<IBancoReadRepository, BancoReadRepository>();
+builder.Services.AddScoped<IBancoWriteRepository, BancoWriteRepository>();
 
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 
@@ -94,7 +110,9 @@ builder.Services.AddAuthentication("Bearer")
 
 builder.Services.AddAuthorization();
 
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+//builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),

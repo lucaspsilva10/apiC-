@@ -2,11 +2,7 @@
 using APIEstudo.Application.Responses.Usuarios;
 using APIEstudo.Domain.Interfaces.Usuarios;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace APIEstudo.Application.Queries.Usuarios.Handlers
 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIEstudo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5436820459170f205806711ca8078d5b2eba2eb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d95716e3eb23f3597f1f90c9de93a350bbe6635e")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIEstudo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIEstudo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
