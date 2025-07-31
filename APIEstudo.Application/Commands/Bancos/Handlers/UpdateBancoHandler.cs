@@ -24,15 +24,11 @@ namespace APIEstudo.Application.Commands.Bancos.Handlers
 
             if (string.IsNullOrEmpty(command.Nome))
                 throw new Exception("Digite um nome válido");
+         
+            if (banco.Nome == command.Nome.ToUpper())
+                throw new Exception("Banco já cadastrado");
 
-            if (!string.IsNullOrEmpty(command.Nome))
-            {
-                if (banco.Nome == command.Nome.ToUpper())
-                    throw new Exception("Banco já cadastrado");
-
-                banco.UpdateNomeBanco(command.Nome);
-            }
-
+            banco.UpdateNomeBanco(command.Nome);
 
             await _bancoWriteRepository.UpdateBancoAsync(banco);
 

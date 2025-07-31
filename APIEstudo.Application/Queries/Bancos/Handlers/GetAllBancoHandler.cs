@@ -2,11 +2,7 @@
 using APIEstudo.Application.Responses.Bancos;
 using APIEstudo.Domain.Interfaces.Bancos;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace APIEstudo.Application.Queries.Bancos.Handlers
 {

@@ -41,6 +41,25 @@ namespace APIEstudo.Infrastructure.Migrations
                     b.ToTable("bancos", (string)null);
                 });
 
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Categoria", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("categorias", (string)null);
+                });
+
             modelBuilder.Entity("APIEstudo.Domain.Entities.Usuario", b =>
                 {
                     b.Property<Guid>("Id")
