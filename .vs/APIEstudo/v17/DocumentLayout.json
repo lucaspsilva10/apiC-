@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\queries\\categorias\\handlers\\getallcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\queries\\categorias\\handlers\\getallcategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\categorias\\handlers\\deletecategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\categorias\\handlers\\deletecategoriahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\handlers\\deletebancohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\handlers\\deletebancohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\createbancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\createbancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\usuarios\\deleteusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\usuarios\\deleteusuariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\bancos\\ibancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\bancos\\ibancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\bancos\\bancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\bancos\\bancowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\categorias\\deletecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\categorias\\deletecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,137 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "APIEstudo\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:41:02.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BancoController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
-              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\BancoController.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
-              "RelativeToolTip": "APIEstudo\\Controllers\\BancoController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "Title": "GetAllCategoriaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Categorias\\Handlers\\GetAllCategoriaHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Queries\\Categorias\\Handlers\\GetAllCategoriaHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Queries\\Categorias\\Handlers\\GetAllCategoriaHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Queries\\Categorias\\Handlers\\GetAllCategoriaHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBYAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:33:39.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateBancoCommand.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\CreateBancoCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:27:39.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
-              "RelativeToolTip": "APIEstudo\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:27:02.545Z",
+              "WhenOpened": "2025-07-31T15:11:18.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:01:16.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BancoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\BancoController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\BancoController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:59:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DeleteBancoHandler.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
               "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
               "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\Handlers\\DeleteBancoHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:11:46.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T14:58:27.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteBancoCommand.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeleteCategoriaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Categorias\\Handlers\\DeleteCategoriaHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Categorias\\Handlers\\DeleteCategoriaHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Categorias\\Handlers\\DeleteCategoriaHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Categorias\\Handlers\\DeleteCategoriaHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T13:09:13.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T14:55:40.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeleteUsuarioCommand.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "RelativeToolTip": "APIEstudo.Application\\Commands\\Usuarios\\DeleteUsuarioCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DeleteCategoriaCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Categorias\\DeleteCategoriaCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Categorias\\DeleteCategoriaCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Categorias\\DeleteCategoriaCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Categorias\\DeleteCategoriaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:54:10.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IBancoWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Bancos\\IBancoWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:52:33.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:35:42.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BancoWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Bancos\\BancoWriteRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:36:08.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T14:53:45.476Z"
             }
           ]
         }

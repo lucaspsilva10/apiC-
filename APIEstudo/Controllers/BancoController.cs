@@ -1,8 +1,6 @@
 ﻿using APIEstudo.Application.Commands.Bancos;
-using APIEstudo.Application.Commands.Usuarios;
 using APIEstudo.Application.Interfaces;
 using APIEstudo.Application.Queries.Bancos;
-using APIEstudo.Application.Queries.Bancos.Handlers;
 using APIEstudo.Application.Responses;
 using APIEstudo.Application.Responses.Bancos;
 using Microsoft.AspNetCore.Authorization;
