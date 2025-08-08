@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Banco/ObterBancos": {
+    "/api/Banco/getAllBancos": {
       "get": {
         "tags": [
           "Banco"
@@ -48,7 +48,7 @@
         }
       }
     },
-    "/api/Banco/UpdateBanco": {
+    "/api/Banco/updateBanco": {
       "put": {
         "tags": [
           "Banco"
@@ -180,6 +180,103 @@
       "delete": {
         "tags": [
           "Categoria"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lancamento/createLancamento": {
+      "post": {
+        "tags": [
+          "Lancamento"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLancamentoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLancamentoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLancamentoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lancamento/getAllLancamentos": {
+      "get": {
+        "tags": [
+          "Lancamento"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lancamento/updateLancamentos": {
+      "put": {
+        "tags": [
+          "Lancamento"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateLancamentoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateLancamentoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateLancamentoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lancamento/deleteLancamentos/{id}": {
+      "delete": {
+        "tags": [
+          "Lancamento"
         ],
         "parameters": [
           {
@@ -361,6 +458,39 @@
         },
         "additionalProperties": false
       },
+      "CreateLancamentoCommand": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nomeBanco": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeCategoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipoLancamento": {
+            "$ref": "#/components/schemas/TipoLancamento"
+          },
+          "dataLancamento": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateUsuarioCommand": {
         "type": "object",
         "properties": {
@@ -397,6 +527,14 @@
         },
         "additionalProperties": false
       },
+      "TipoLancamento": {
+        "enum": [
+          68,
+          82
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "UpdateBancoCommand": {
         "type": "object",
         "properties": {
@@ -421,6 +559,39 @@
           "nome": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateLancamentoCommand": {
+        "type": "object",
+        "properties": {
+          "lancamentoId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nomeBanco": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeCategoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipoLancamento": {
+            "$ref": "#/components/schemas/TipoLancamento"
+          },
+          "dataLancamento": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false

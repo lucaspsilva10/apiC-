@@ -12,5 +12,6 @@ namespace APIEstudo.Domain.Interfaces.Bancos
         Task<bool> ValidateBancoExistAsync(string nome);
         Task<List<Banco>> GetAllBancosAsync();
         Task<Banco> GetBancoByIdAsync(Guid id);
+        Task<Banco> GetBancoByNomeAsync(string nome);
     }
 }

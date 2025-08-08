@@ -44,7 +44,7 @@ namespace APIEstudo.Controllers
         }
 
         [Authorize]
-        [HttpGet("ObterBancos")]
+        [HttpGet("getAllBancos")]
         public async Task<IActionResult> GetAllBancos()
         {
             try
@@ -60,7 +60,7 @@ namespace APIEstudo.Controllers
         }
 
         [Authorize]
-        [HttpPut("UpdateBanco")]
+        [HttpPut("updateBanco")]
         public async Task<IActionResult> UpdateBanco([FromBody] UpdateBancoCommand command)
         {
             try

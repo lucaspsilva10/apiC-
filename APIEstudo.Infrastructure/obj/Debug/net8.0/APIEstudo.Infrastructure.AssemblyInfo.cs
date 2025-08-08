@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIEstudo.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4291369050533a7db0e67744b6101a701e44949e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22a034c6e266def3d5f044d0b3acfc3753477438")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIEstudo.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIEstudo.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

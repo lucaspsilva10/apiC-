@@ -29,6 +29,11 @@ namespace APIEstudo.Infrastructure.Repositories.Bancos
         {
             return await _context.Bancos.FirstOrDefaultAsync(b => b.Id == id);
         }
+
+        public async Task<Banco> GetBancoByNomeAsync(string nome)
+        {
+            return await _context.Bancos.FirstOrDefaultAsync(b => b.Nome == nome);
+        }
     }
 
 }

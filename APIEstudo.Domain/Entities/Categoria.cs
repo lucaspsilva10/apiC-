@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace APIEstudo.Domain.Entities
 {
     public class Categoria
     {
-        public Guid Id { get; set; }
-        public string Nome { get; set; }
+        public Guid Id { get; private set; }
+        public string Nome { get; private set; }
         public DateTime CriadoEm { get; private set; }
 
+        protected Categoria() { }
         public Categoria(string nome) 
         {
             Id = Guid.NewGuid();

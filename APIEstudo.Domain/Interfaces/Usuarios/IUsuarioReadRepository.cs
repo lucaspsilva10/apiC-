@@ -8,5 +8,6 @@ namespace APIEstudo.Domain.Interfaces.Usuarios
         Task<bool> ValidateEmailExistAsync(string email);
         Task<Usuario> GetUsuarioByEmailAsync(string email);
         Task<Usuario> GetUsuarioByIdAsync(Guid id);
+        Task<List<Usuario>> GetAllUsuarioAsync();
     }
 }

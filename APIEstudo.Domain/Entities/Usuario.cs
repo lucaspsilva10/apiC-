@@ -11,6 +11,7 @@ namespace APIEstudo.Domain.Entities
         public string Senha { get; private set; }
         public DateTime CriadoEm { get; private set; }
 
+        protected Usuario() { }
         public Usuario( string nome, string cpf, string email, string senha) 
         {
             var (cpfValido, cpfmensagem) = CpfValidation(cpf);
