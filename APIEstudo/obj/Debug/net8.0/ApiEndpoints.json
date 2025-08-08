@@ -34,7 +34,7 @@
   {
     "ContainingType": "APIEstudo.Controllers.BancoController",
     "Method": "GetAllBancos",
-    "RelativePath": "api/Banco/ObterBancos",
+    "RelativePath": "api/Banco/getAllBancos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "APIEstudo.Controllers.BancoController",
     "Method": "UpdateBanco",
-    "RelativePath": "api/Banco/UpdateBanco",
+    "RelativePath": "api/Banco/updateBanco",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -110,6 +110,64 @@
       {
         "Name": "command",
         "Type": "APIEstudo.Application.Commands.Categorias.UpdateCategoriaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.LancamentoController",
+    "Method": "CreateLancamento",
+    "RelativePath": "api/Lancamento/createLancamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "APIEstudo.Application.Commands.Lancamentos.CreateLancamentoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.LancamentoController",
+    "Method": "DeleteLancamento",
+    "RelativePath": "api/Lancamento/deleteLancamentos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.LancamentoController",
+    "Method": "GetAllLancamento",
+    "RelativePath": "api/Lancamento/getAllLancamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIEstudo.Controllers.LancamentoController",
+    "Method": "UpdateLancamento",
+    "RelativePath": "api/Lancamento/updateLancamentos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "APIEstudo.Application.Commands.Lancamentos.UpdateLancamentoCommand",
         "IsRequired": true
       }
     ],

@@ -35,5 +35,10 @@ namespace APIEstudo.Infrastructure.Repositories.Usuarios
         {
             return await _context.Usuarios.FirstOrDefaultAsync(e => e.Id == id);
         }
+
+        public async Task<List<Usuario>> GetAllUsuarioAsync()
+        {
+            return await _context.Usuarios.ToListAsync();
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace APIEstudo.Domain.Entities
         public string Nome { get; private set; }
         public DateTime CriadoEm { get; private set; }
 
+        protected Banco() { }
         public Banco(string nome) 
         {
             Id = Guid.NewGuid();

@@ -28,5 +28,10 @@ namespace APIEstudo.Infrastructure.Repositories.Categorias
         {
             return await _context.Categorias.FirstOrDefaultAsync(c => c.Id == id);
         }
+
+        public async Task<Categoria> GetCategoriaByNomeAsync(string nome)
+        {
+            return await _context.Categorias.FirstOrDefaultAsync(c => c.Nome == nome);
+        }
     }
 }
