@@ -22,6 +22,100 @@ namespace APIEstudo.Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Banco", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("bancos", (string)null);
+                });
+
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Categoria", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("categorias", (string)null);
+                });
+
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Lancamento", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)")
+                        .HasColumnName("id");
+
+                    b.Property<Guid>("BancoId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("banco_id");
+
+                    b.Property<Guid>("CategoriaId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("categoria_id");
+
+                    b.Property<DateTime>("CriadoEm")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp")
+                        .HasColumnName("criado_em")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<DateTime>("DataLancamento")
+                        .HasColumnType("date")
+                        .HasColumnName("data_lancamento");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("descricao");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("varchar(1)")
+                        .HasColumnName("tipo");
+
+                    b.Property<Guid>("UsuarioId")
+                        .HasColumnType("char(36)")
+                        .HasColumnName("usuario_id");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(10,2)")
+                        .HasColumnName("valor");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BancoId");
+
+                    b.HasIndex("CategoriaId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("lancamentos", (string)null);
+                });
+
             modelBuilder.Entity("APIEstudo.Domain.Entities.Usuario", b =>
                 {
                     b.Property<Guid>("Id")
@@ -54,6 +148,27 @@ namespace APIEstudo.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("usuarios", (string)null);
+                });
+
+            modelBuilder.Entity("APIEstudo.Domain.Entities.Lancamento", b =>
+                {
+                    b.HasOne("APIEstudo.Domain.Entities.Banco", null)
+                        .WithMany()
+                        .HasForeignKey("BancoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("APIEstudo.Domain.Entities.Categoria", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("APIEstudo.Domain.Entities.Usuario", null)
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

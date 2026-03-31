@@ -1,5 +1,4 @@
-﻿using APIEstudo.Domain.Validation;
-using System.Net.Mail;
+﻿using System.Net.Mail;
 
 namespace APIEstudo.Domain.Entities
 {
@@ -12,6 +11,7 @@ namespace APIEstudo.Domain.Entities
         public string Senha { get; private set; }
         public DateTime CriadoEm { get; private set; }
 
+        protected Usuario() { }
         public Usuario( string nome, string cpf, string email, string senha) 
         {
             var (cpfValido, cpfmensagem) = CpfValidation(cpf);
@@ -27,6 +27,32 @@ namespace APIEstudo.Domain.Entities
             Senha = senha;
             CriadoEm = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow,
                             TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time"));
+        }
+
+        public void AtualizarSenha(string novaSenha)
+        {
+            Senha = BCrypt.Net.BCrypt.HashPassword(novaSenha);
+        }
+
+        public void AtualizarEmail(string novoEmail)
+        {
+            var (valido, mensagem) = EmailValidation(novoEmail);
+            if (!valido) throw new ArgumentException(mensagem);
+            Email = novoEmail;
+        }
+
+        public void AtualizarCPF(string novoCpf)
+        {
+            var (valido, mensagem) = CpfValidation(novoCpf);
+            if (!valido) throw new ArgumentException(mensagem);
+            Cpf = novoCpf;
+        }
+
+        public void AtualizarNome(string novoNome)
+        {
+            if (string.IsNullOrWhiteSpace(novoNome))
+                throw new ArgumentException("Nome não pode estar vazio.");
+            Nome = novoNome;
         }
 
         private static (bool valido, string mensagem) CpfValidation(string cpf)

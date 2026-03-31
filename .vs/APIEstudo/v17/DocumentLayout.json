@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\lancamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\lancamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\validations\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\validations\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\controllers\\bancocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8324DE-E4AC-4415-9546-0F1EE08A61B6}|APIEstudo.Domain\\APIEstudo.Domain.csproj|solutionrelative:apiestudo.domain\\interfaces\\usuarios\\iusuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\lancamentos\\handlers\\deletelancamentohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\lancamentos\\handlers\\deletelancamentohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92806C7E-A253-4396-B04A-9A2C2C43E75C}|APIEstudo.Infrastructure\\APIEstudo.Infrastructure.csproj|solutionrelative:apiestudo.infrastructure\\repositories\\usuarios\\usuariowriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\bancos\\deletebancocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF52300-EA11-4922-9A68-B046A1CFA430}|APIEstudo\\APIEstudo.csproj|solutionrelative:apiestudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|c:\\users\\lucas\\source\\repos\\apiestudo\\apiestudo.application\\commands\\lancamentos\\deletelancamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4ED8EE-11D5-4D2D-8B20-715D48188F23}|APIEstudo.Application\\APIEstudo.Application.csproj|solutionrelative:apiestudo.application\\commands\\lancamentos\\deletelancamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Entities\\Usuario.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwBYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:32:57.793Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioValidation.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Validations\\UsuarioValidation.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Title": "BancoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\BancoController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\BancoController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\BancoController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:58:53.37Z",
+              "WhenOpened": "2025-08-08T14:03:41.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUsuarioWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Domain\\Interfaces\\Usuarios\\IUsuarioWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LancamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\LancamentoController.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Controllers\\LancamentoController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Controllers\\LancamentoController.cs",
+              "RelativeToolTip": "APIEstudo\\Controllers\\LancamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:58:29.983Z",
+              "WhenOpened": "2025-08-08T14:00:38.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsuarioWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeDocumentMoniker": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "RelativeToolTip": "APIEstudo.Infrastructure\\Repositories\\Usuarios\\UsuarioWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Title": "DeleteBancoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Bancos\\DeleteBancoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:33:26.086Z",
+              "WhenOpened": "2025-08-08T13:58:08.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeDocumentMoniker": "APIEstudo\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo\\Program.cs",
+              "RelativeToolTip": "APIEstudo\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:55:44.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteLancamentoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Lancamentos\\DeleteLancamentoCommand.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Lancamentos\\DeleteLancamentoCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Lancamentos\\DeleteLancamentoCommand.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Lancamentos\\DeleteLancamentoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:37:39.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteLancamentoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Lancamentos\\Handlers\\DeleteLancamentoHandler.cs",
+              "RelativeDocumentMoniker": "APIEstudo.Application\\Commands\\Lancamentos\\Handlers\\DeleteLancamentoHandler.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\APIEstudo\\APIEstudo.Application\\Commands\\Lancamentos\\Handlers\\DeleteLancamentoHandler.cs",
+              "RelativeToolTip": "APIEstudo.Application\\Commands\\Lancamentos\\Handlers\\DeleteLancamentoHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:37:07.755Z",
               "EditorCaption": ""
             }
           ]

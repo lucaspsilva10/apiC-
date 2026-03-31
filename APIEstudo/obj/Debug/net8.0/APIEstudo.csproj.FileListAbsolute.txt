@@ -118,7 +118,6 @@ C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\ru\Microsoft.Co
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\source\repos\APIEstudo\APIEstudo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -129,3 +128,4 @@ C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\Microsoft.AspNe
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\lucas\source\repos\APIEstudo\APIEstudo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lucas\source\repos\APIEstudo\APIEstudo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APIEstudo.Application.Responses.Usuarios
+namespace APIEstudo.Domain.Enums
 {
-    public class CreateUsuarioResponse
+    public enum TipoLancamento
     {
-        public string Menssagem { get; set; }
+        Receita = 'R',
+        Despesa = 'D'
     }
 }

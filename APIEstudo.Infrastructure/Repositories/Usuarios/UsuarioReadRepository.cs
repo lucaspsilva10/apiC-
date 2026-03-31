@@ -15,6 +15,7 @@ namespace APIEstudo.Infrastructure.Repositories.Usuarios
         {
             _context = context;
         }
+
         public async Task<bool> ValidateCPFExistAsync(string cpf)
         {
             return await _context.Usuarios.AnyAsync(u => u.Cpf == cpf);
@@ -28,6 +29,16 @@ namespace APIEstudo.Infrastructure.Repositories.Usuarios
         public async Task<Usuario> GetUsuarioByEmailAsync(string email)
         {
             return await _context.Usuarios.FirstOrDefaultAsync(e => e.Email == email);
+        }
+
+        public async Task<Usuario> GetUsuarioByIdAsync(Guid id)
+        {
+            return await _context.Usuarios.FirstOrDefaultAsync(e => e.Id == id);
+        }
+
+        public async Task<List<Usuario>> GetAllUsuarioAsync()
+        {
+            return await _context.Usuarios.ToListAsync();
         }
     }
 }
